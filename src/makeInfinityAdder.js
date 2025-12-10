@@ -29,4 +29,6 @@ function makeInfinityAdder() {
   return adder;
 }
 
-module.exports = makeInfinityAdder;
+const makeAdder = makeInfinityAdder;
+
+module.exports = makeAdder;
